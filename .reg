@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\Trier_avec_script]
+@="Trier ce dossier"
+"Icon"="python.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Trier_avec_script\command]
+; xxxxx à changer en fonction de l'emplacement du script (dans mon exemple, le script est sur le bureau)
+@="\"C:\\Users\\xxxxx\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Users\\xxxxx\\Desktop\\sort_folder.py\" \"%1\""
